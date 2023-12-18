@@ -1,0 +1,75 @@
+:root {
+  --text-color: #626262;
+  --navtext-color: #7d7d7d;
+  --blue-color: #03a9f4;
+  --body-color: #fff;
+  --h-color: #b4ad9e;
+}
+
+body {
+  font-family: Plafair Display SC, sans-serif;
+  box-sizing: border-box;
+  background-color: var(--body-color);
+  color: var;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--navtext-color);
+}
+.nav-link {
+  font-family: Playfair Display SC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 71px;
+  height: 19px;
+  color: var(--navtext-color);
+}
+.active-link {
+  color: var(--blue-color);
+}
+h2 {
+  font-family: Playfair Display;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text-color);
+}
+
+p {
+  font-family: Playfair Display;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--text-color);
+}
+img {
+  width: 420px;
+  height: 280px;
+  flex-shrink: 0;
+}
+.filter {
+  color: #b4ad9e;
+
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+a:hover {
+  cursor: pointer;
+}
+p,
+h2,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
